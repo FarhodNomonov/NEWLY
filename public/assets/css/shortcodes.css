@@ -5399,7 +5399,7 @@ button.accordion-button {
 
 .header_2 #main-nav > ul > li {
   float: left;
-  padding: 26px 13px 26px 13px;
+  padding: 26px 3px 26px 3px;
 }
 
 .question-form {
@@ -7427,7 +7427,8 @@ button.accordion-button {
   background: #14141f;
 }
 .is_dark .header_1.header_2.style2 {
-  background: rgba(20, 20, 31, 0.9);
+  /* background: rgba(20, 20, 31, 0.9); */
+  background: transparent;
 }
 .is_dark .header_1.header_2.style2.is-fixed,
 .is_dark .header_1.is-fixed {

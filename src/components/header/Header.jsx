@@ -85,7 +85,8 @@ const Header = () => {
                 <nav id="main-nav" className="main-nav" ref={menuLeft}>
                   <ul id="menu-primary-menu" className="menu">
                     {menus.map((data, index) => (
-                      <li
+                      <Link
+                        to={data.links}
                         key={index}
                         onClick={() => handleOnClick(index)}
                         className={`menu-item ${
@@ -96,7 +97,8 @@ const Header = () => {
                         {data.namesub && (
                           <ul className="sub-menu">
                             {data.namesub.map((submenu) => (
-                              <li
+                              <link
+                                to={submenu.links}
                                 key={submenu.id}
                                 className={
                                   pathname === submenu.links
@@ -105,11 +107,11 @@ const Header = () => {
                                 }
                               >
                                 <Link to={submenu.links}>{submenu.sub}</Link>
-                              </li>
+                              </link>
                             ))}
                           </ul>
                         )}
-                      </li>
+                      </Link>
                     ))}
                   </ul>
                 </nav>
