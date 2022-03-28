@@ -66,7 +66,7 @@ const menus = [
   {
     id: 3,
     name: "Collections",
-    links: "#",
+    links: "/explore-01",
     // namesub: [
     //     {
     //       id: 1,
@@ -83,7 +83,7 @@ const menus = [
   {
     id: 4,
     name: "Community",
-    links: "#",
+    links: "/help-center",
     // namesub: [
     //   {
     //     id: 1,
@@ -105,7 +105,7 @@ const menus = [
   {
     id: 5,
     name: "Ranking",
-    links: "#Ranking",
+    links: "/ranking",
     // namesub: [
     //   //   {
     //   //     id: 1,
@@ -162,7 +162,7 @@ const menus = [
   {
     id: 7,
     name: "Contact",
-    links: "/contact-01",
+    links: "/contact-02",
     // namesub: [
     //   {
     //     id: 1,

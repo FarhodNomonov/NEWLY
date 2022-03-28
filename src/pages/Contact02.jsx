@@ -13,13 +13,13 @@ const Contact02 = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="page-title-heading mg-bt-12">
-                                <h1 className="heading text-center">Contact 2</h1>
+                                <h1 className="heading text-center">Contact</h1>
                             </div>
                             <div className="breadcrumbs style2">
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
-                                    <li><Link to="#">Contact</Link></li>
-                                    <li>Contact 2</li>
+                                    <li><Link to="/contact-01">Contact</Link></li>
+                                    <li>Contact</li>
                                 </ul>
                             </div>
                         </div>

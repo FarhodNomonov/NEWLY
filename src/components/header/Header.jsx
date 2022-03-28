@@ -1,5 +1,5 @@
-import React, { useRef, useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import React, { useRef, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import menus from "../../pages/menu";
 import DarkMode from "./DarkMode";
 import logoheader from "../../assets/images/logo/logo.png";
@@ -10,8 +10,6 @@ import imgsun from "../../assets/images/icon/sun.png";
 import avt from "../../assets/images/avatar/avt-2.jpg";
 
 const Header = () => {
-  const { pathname } = useLocation();
-
   const headerRef = useRef(null);
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
@@ -43,11 +41,6 @@ const Header = () => {
     btnSearch.current.classList.toggle("active");
   };
 
-  const [activeIndex, setActiveIndex] = useState(null);
-  const handleOnClick = (index) => {
-    setActiveIndex(index);
-  };
-
   return (
     <header id="header_main" className="header_1 js-header" ref={headerRef}>
       <div className="themesflat-container">
@@ -57,7 +50,7 @@ const Header = () => {
               <div className="wrap-box flex">
                 <div id="site-logo" className="clearfix">
                   <div id="site-logo-inner">
-                    <Link to="/" rel="home" className="main-logo">
+                    <NavLink to="/" rel="home" className="main-logo">
                       <img
                         className="logo-dark"
                         id="logo_header"
@@ -72,7 +65,7 @@ const Header = () => {
                         srcSet={`${logoheader2x}`}
                         alt="nft-gaming"
                       />
-                    </Link>
+                    </NavLink>
                   </div>
                 </div>
                 <div
@@ -85,45 +78,27 @@ const Header = () => {
                 <nav id="main-nav" className="main-nav" ref={menuLeft}>
                   <ul id="menu-primary-menu" className="menu">
                     {menus.map((data, index) => (
-                      <Link
+                      <NavLink
                         to={data.links}
                         key={index}
-                        onClick={() => handleOnClick(index)}
                         className={`menu-item ${
                           data.namesub ? "menu-item-has-children" : ""
-                        } ${activeIndex === index ? "active" : ""} `}
+                        }`}
                       >
-                        <Link to={data.links}>{data.name}</Link>
-                        {data.namesub && (
-                          <ul className="sub-menu">
-                            {data.namesub.map((submenu) => (
-                              <link
-                                to={submenu.links}
-                                key={submenu.id}
-                                className={
-                                  pathname === submenu.links
-                                    ? "menu-item current-item"
-                                    : "menu-item"
-                                }
-                              >
-                                <Link to={submenu.links}>{submenu.sub}</Link>
-                              </link>
-                            ))}
-                          </ul>
-                        )}
-                      </Link>
+                        {data.name}
+                      </NavLink>
                     ))}
                   </ul>
                 </nav>
                 <div className="flat-search-btn flex">
                   <div className="header-search flat-show-search" id="s1">
-                    <Link
+                    <NavLink
                       to="#"
                       className="show-search header-search-trigger"
                       onClick={searchBtn}
                     >
                       <i className="far fa-search"></i>
-                    </Link>
+                    </NavLink>
                     <div className="top-search" ref={btnSearch}>
                       <form
                         action="#"
@@ -151,12 +126,12 @@ const Header = () => {
                     </div>
                   </div>
                   <div className="sc-btn-top mg-r-12" id="site-header">
-                    <Link
+                    <NavLink
                       to="/wallet-connect"
                       className="sc-button header-slider style style-1 wallet fl-button pri-1"
                     >
                       <span>Wallet connect</span>
-                    </Link>
+                    </NavLink>
                   </div>
 
                   <div className="admin_active" id="header_admin">
@@ -170,9 +145,9 @@ const Header = () => {
                       <div className="avatar_popup mt-20">
                         <div className="d-flex align-items-center copy-text justify-content-between">
                           <span> 13b9ebda035r178... </span>
-                          <Link to="/" className="ml-2">
+                          <NavLink to="/" className="ml-2">
                             <i className="fal fa-copy"></i>
-                          </Link>
+                          </NavLink>
                         </div>
                         <div className="d-flex align-items-center mt-10">
                           <img className="coin" src={imgsun} alt="/" />
@@ -187,10 +162,10 @@ const Header = () => {
                         </div>
                         <div className="hr"></div>
                         <div className="links mt-20">
-                          <Link to="#">
+                          <NavLink to="#">
                             <i className="fab fa-accusoft"></i>{" "}
                             <span> My items</span>
-                          </Link>
+                          </NavLink>
                           <a className="mt-10" href="/edit-profile">
                             <i className="fas fa-pencil-alt"></i>{" "}
                             <span> Edit Profile</span>
