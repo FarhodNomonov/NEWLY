@@ -18,9 +18,9 @@ return (
         </p>
         <input type="text" className="form-control"
             placeholder="00.00 Ⓝ" />
-        <p>Enter quantity. <span className="color-popup">5 available</span>
+        {/* <p>Enter quantity. <span className="color-popup">50 available</span>
         </p>
-        <input type="number" className="form-control" placeholder="1" />
+        <input type="number" className="form-control" placeholder="1" /> */}
         <div className="hr"></div>
         <div className="d-flex justify-content-between">
             <p> You must bid at least:</p>

@@ -19,7 +19,7 @@ const Home06 = () => {
             <LiveAuction />
             <TopSeller />
             <TodayPicks data={todayPickData} />
-            <PopularCollection />
+            {/* <PopularCollection /> */}
             <Create />
             <Footer />
         </div>
