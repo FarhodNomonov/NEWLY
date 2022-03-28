@@ -49,7 +49,7 @@ const menus = [
   {
     id: 2,
     name: "Launchpad",
-    links: "#",
+    links: "/launchpad",
     // namesub: [
     //   {
     //     id: 1,
