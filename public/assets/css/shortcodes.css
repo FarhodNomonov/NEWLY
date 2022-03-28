@@ -1190,7 +1190,7 @@
   left: 0;
   right: 0;
   text-align: center;
-  visibility: hidden;
+  /* visibility: hidden; */
   opacity: 0;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -1745,6 +1745,7 @@
   background-size: 100% 100%;
   -webkit-text-stroke: 3px transparent;
   -webkit-text-fill-color: #14141f;
+  -webkit-background-clip: text;
 }
 
 .flat-slider .heading .fill {

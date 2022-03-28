@@ -67,9 +67,9 @@ const LiveAuction = props => {
                                                                                     <span>You are good to go!</span>
                                                                                 </Countdown>
                                                                             </div>
-                                                                            {/* <div className="button-place-bid">
+                                                                            <div className="button-place-bid">
                                                                                 <button onClick={() => setModalShow(true)} className="sc-button style-place-bid style bag fl-button pri-3"><span>Place Bid</span></button>
-                                                                            </div> */}
+                                                                            </div>
                                                                         </div>
                                                                         <div className="card-title">
                                                                             <h5><Link to="/item-details-01">"{item.title}"</Link></h5>

@@ -302,7 +302,9 @@ const TopSeller = () => {
                                   <div className="author-avatar">
                                     <Link to="#">
                                       <img
-                                        src={item.img}
+                                        src={`https://picsum.photos/${
+                                          100 + index
+                                        }`}
                                         alt="Axies"
                                         className="avatar"
                                       />
@@ -322,7 +324,7 @@ const TopSeller = () => {
                                 <div className="action">
                                   <div className="number">#{item.top}</div>
                                   <div className="btn-follow">
-                                    <Link to="/item-details-01">Follow</Link>
+                                    <Link to="/item-details-01">View</Link>
                                   </div>
                                 </div>
                               </div>
