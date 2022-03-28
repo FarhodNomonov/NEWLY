@@ -16,7 +16,7 @@ import Create from '../components/layouts/Create';
 const Home04 = () => {
     return (
         <div className='home-4'>
-            <HeaderStyle2 />
+            {/* <HeaderStyle2 /> */}
             <CardItem />
             <LiveAuction data={liveAuctionData} />
             <TopSeller data={topSellerData} />

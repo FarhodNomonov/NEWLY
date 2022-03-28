@@ -20,8 +20,8 @@ import PopularCollection from "./../components/layouts/PopularCollection";
 const Home01 = () => {
   return (
     <div className="home-7 home-6">
-      {/* <Header /> */}
-      <HeaderStyle2 />
+      <Header />
+      {/* <HeaderStyle2 /> */}
       <SliderStyle4 />
       {/* <Slider data={heroSliderData} /> */}
       <PopularCollection data={popularCollectionData} />
