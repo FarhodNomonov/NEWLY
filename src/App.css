@@ -1479,6 +1479,9 @@ input {
 }
 .aaa {
   margin-bottom: 7px;
+  background: #24182f;
+  padding: 5px;
+  border-radius: 10px;
 }
 .ended {
   color: #95275a;
@@ -1514,5 +1517,43 @@ input {
   font-size: 22px;
 }
 .publick {
-  font-size: 21px;
+  font-size: 16px;
+  background: #24182f;
+  padding: 5px;
+  border-radius: 10px;
+  width: 150px;
+}
+.dddaffsasfa {
+  color: #95275a;
+  font-size: 10px;
+}
+.frsfddfsfdsfds {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.asdsadsadsa {
+  display: flex;
+  align-items: center;
+}
+.lklklkk {
+  font-size: 16px;
+  background: #24182f;
+  padding: 5px;
+  border-radius: 10px;
+  width: 150px;
+}
+.d_flex_text___ {
+  padding: 10px;
+}
+.asdadsadsdsa {
+  color: #95275a;
+}
+.adsdaddsadsa {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background: #a89db426;
+  padding: 15px 0;
 }

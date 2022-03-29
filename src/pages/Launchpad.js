@@ -188,9 +188,7 @@ export default function Launchpad() {
                           </span>
                         </div>
                       </div>
-                      <div className="tw-flex tw-flex-row tw-gap-2 tw-text-pink-hot tw-text-sm tw-tracking-wide tw-font-medium tw-text-center tw-uppercase tw-items-center">
-                        Ends in
-                      </div>
+                      <div className="dddaffsasfa">Ended</div>
                     </div>
                   </div>
                 </div>
@@ -203,52 +201,54 @@ export default function Launchpad() {
                   style={{ display: "inline" }}
                 >
                   <div className="tw-rounded-xl tw-border tw-border-solid tw-border-purple-1 tw-p-3 tw-flex tw-flex-col tw-gap-6 hover:tw-bg-purple-1 hover:tw-cursor-help">
-                    <div className="tw-flex tw-justify-between tw-items-center">
+                    <div className="frsfddfsfdsfds">
                       <div>
-                        <div className="publick">
-                          <div className="publick">Public Sale</div>
+                        <div className="lklklkk">
+                          <div className="adsdsa">Public Sale</div>
                         </div>
                       </div>
-                      <div className="tw-flex tw-flex-row tw-gap-2 tw-text-pink-hot tw-text-sm tw-tracking-wide tw-font-medium tw-text-center tw-uppercase tw-items-center">
-                        Starts in
-                      </div>
-                      <div
-                        className
-                        data-tooltipped
-                        aria-describedby="tippy-tooltip-24"
-                        data-original-title="Minutes"
-                        style={{ display: "inline" }}
-                      >
-                        <div className="tw-w-8 tw-h-8 tw-cursor-help tw-bg-purple-3 tw-flex tw-items-center tw-justify-center tw-rounded">
-                          <span className="tw-text-sm tw-font-bold tw-text-white-1 tw-font-mono">
-                            {minute}
-                          </span>
+                      <div className="asdsadsadsa">
+                        <div className="asdadsadsdsa">
+                          ENDS IN
                         </div>
-                      </div>
-                      <div
-                        className
-                        data-tooltipped
-                        aria-describedby="tippy-tooltip-25"
-                        data-original-title="Seconds"
-                        style={{ display: "inline" }}
-                      >
-                        <div className="tw-w-8 tw-h-8 tw-cursor-help tw-bg-purple-3 tw-flex tw-items-center tw-justify-center tw-rounded">
-                          <span className="tw-text-sm tw-font-bold tw-text-white-1 tw-font-mono">
-                            {sekund}
-                          </span>
+                        <div className="dddd_flex">
+                          <div
+                            className
+                            data-tooltipped
+                            aria-describedby="tippy-tooltip-23"
+                            data-original-title="Hours"
+                            style={{ display: "inline" }}
+                          >
+                            <div className="tw-w-8 tw-h-8 tw-cursor-help tw-bg-purple-3 tw-flex tw-items-center tw-justify-center tw-rounded">
+                              <span className="tw-text-sm tw-font-bold tw-text-white-1 tw-font-mono">
+                                03
+                              </span>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                      <div className="dddd_flex">
                         <div
                           className
                           data-tooltipped
-                          aria-describedby="tippy-tooltip-23"
-                          data-original-title="Hours"
+                          aria-describedby="tippy-tooltip-24"
+                          data-original-title="Minutes"
                           style={{ display: "inline" }}
                         >
                           <div className="tw-w-8 tw-h-8 tw-cursor-help tw-bg-purple-3 tw-flex tw-items-center tw-justify-center tw-rounded">
                             <span className="tw-text-sm tw-font-bold tw-text-white-1 tw-font-mono">
-                              03
+                              {minute}
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          className
+                          data-tooltipped
+                          aria-describedby="tippy-tooltip-25"
+                          data-original-title="Seconds"
+                          style={{ display: "inline" }}
+                        >
+                          <div className="tw-w-8 tw-h-8 tw-cursor-help tw-bg-purple-3 tw-flex tw-items-center tw-justify-center tw-rounded">
+                            <span className="tw-text-sm tw-font-bold tw-text-white-1 tw-font-mono">
+                              {sekund}
                             </span>
                           </div>
                         </div>
@@ -277,23 +277,23 @@ export default function Launchpad() {
                     src={Gif}
                     className="tw-object-cover tw-aspect-square tw tw-w-screen tw-flex-grow tw-rounded-3xl overflow-hidden gif"
                   />
-                  <img
+                  {/* <img
                     alt="..."
                     // src="https://bafybeickbpg5rorsgxncosshr3gicib776imvitz35o2sozkr7qisvx4gm.ipfs.nftstorage.link/"
                     width={1}
                     height={1}
                     className="tw-absolute tw-invisible"
-                  />
+                  /> */}
                 </div>
               </div>
               <div className="tw-w-full">
                 <div className="tw-flex tw-flex-col tw-gap-1 tw-flex-grow 3xl:tw-hidden">
-                  <div className="tw-flex tw-items-center tw-justify-between tw-text-[14px] tw-text-gray-5">
+                  {/* <div className="tw-flex tw-items-center tw-justify-between tw-text-[14px] tw-text-gray-5">
                     <span className>Total minted</span>
                     <span>
                       <b className="tw-text-white-1">32%</b> (2256/7000)
                     </span>
-                  </div>
+                  </div> */}
                   <div className="progress-bar__container">
                     <div
                       className="progress-bar__value"
@@ -303,7 +303,7 @@ export default function Launchpad() {
                 </div>
                 <div className="tw-flex tw-gap-4 tw-items-center tw-justify-between tw-flex-wrap tw-rounded-lg tw-bg-purple-2 tw-p-4 tw-mt-4">
                   <div className="tw-flex tw-gap-4 tw-mx-auto tw-flex-col tw-w-full tw-items-center">
-                    <div className="tw-flex tw-justify-between tw-gap-6 3xl:tw-w-full">
+                    <div className="adsdaddsadsa">
                       <button
                         onClick={() =>
                           navigate("/wallet-connect", { replace: "true" })
@@ -314,7 +314,7 @@ export default function Launchpad() {
                       >
                         Wallet connected
                       </button>
-                      <div className="tw-flex tw-flex-col tw-gap-1 tw-flex-grow tw-hidden 3xl:tw-flex tw-flex-col-reverse tw-self-center">
+                      {/* <div className="tw-flex tw-flex-col tw-gap-1 tw-flex-grow tw-hidden 3xl:tw-flex tw-flex-col-reverse tw-self-center">
                         <div className="tw-flex tw-items-center tw-justify-between tw-text-[14px] tw-text-gray-5">
                           <span className>Total minted</span>
                           <span>
@@ -327,7 +327,7 @@ export default function Launchpad() {
                             style={{ width: "32%" }}
                           />
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
