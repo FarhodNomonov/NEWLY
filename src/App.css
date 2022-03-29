@@ -1393,7 +1393,7 @@ input {
 }
 
 .launchpad_container {
-  margin: 0 50px 50px 50px;
+  padding: 0 50px 50px 50px;
 }
 .launchpad .header_1 {
   position: relative !important;
@@ -1406,4 +1406,113 @@ input {
   .launchpad_container {
     margin: 0;
   }
+}
+.launchpad {
+  background: #000;
+}
+.container_d_flex {
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+}
+.future_lanch {
+  width: 50%;
+}
+.FEATURED_LAUNCH {
+  width: 140px;
+  color: #95275a;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #95275a;
+
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.FEATURED_LAUNCH_h1 {
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.d_flex_icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.doxxed_ {
+  width: 100px;
+  color: #95275a;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #95275a;
+  padding: 10px;
+  border-radius: 10px;
+}
+.escrow_ {
+  border-radius: 10px;
+  width: 100px;
+  color: #95275a;
+  border: 1px solid #95275a;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 7px;
+}
+.tw-font-light {
+  font-size: 20px;
+  margin: 0 7px;
+}
+.tw-font-bold {
+  font-size: 17px;
+  margin: 0 7px;
+}
+.icon_d_flex_ a svg {
+  margin: 0 7px;
+  font-size: 22px;
+}
+.text__p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.d_flex_bottm {
+  display: flex;
+  justify-content: space-between;
+}
+.aaa {
+  margin-bottom: 7px;
+}
+.ended {
+  color: #95275a;
+}
+.d_flex___ {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.205);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.text_aaa {
+  font-size: 20px;
+}
+.ddd_flex {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.205);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 21px;
+}
+/* .dddd_flex {
+  display: flex;
+  justify-content: flex-end;
+} */
+.d_flex_text___ {
+  display: flex;
+}
+.d_flex_text___ span {
+}
+.spann {
+  font-size: 22px;
+}
+.publick {
+  font-size: 21px;
 }
